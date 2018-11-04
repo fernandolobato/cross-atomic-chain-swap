@@ -23,55 +23,55 @@ How to use:
 
 # Prerequisites:
 
-    ## Bitcoin:
+## Bitcoin:
 
         
 
-    ## Ethereum:
+## Ethereum:
 
 
 Workflow:
 
-    First get bitcoind running:
+First get bitcoind running:
 
-        docker-compose up!
+    docker-compose up!
 
-        $ BITCOIN="docker run bitcoin-cli -params "
-        $ NODE="/path/exec"
-    
-    For Ganache:
+    $ BITCOIN="docker run bitcoin-cli -params "
+    $ NODE="/path/exec"
 
-        $ ethereum_commands.js
-    
+For Ganache:
 
-    Alice and Bob have a BTC and ETH address, create one on both blockchains:
+    $ ethereum_commands.js
 
-    Alice Testnet: 
-        BTC: mjJ5wHeLYyNcERUgT7imQVvYU7mzAMcD6w
-        ETH: 
 
-    Bob Testnet:
-        BTC: mu8gJj8abXv2LaKmsqEDp3RSvwJHuixPnj
+Alice and Bob have a BTC and ETH address, create one on both blockchains:
 
-    Alice and Bob somehow agree on a 10 : 1 exchange rate BTC ETH. 
+Alice Testnet: 
+    BTC: 
+    ETH: 
 
-    Alice makes the following BTC Transaction:
+Bob Testnet:
+    BTC: mu8gJj8abXv2LaKmsqEDp3RSvwJHuixPnj
 
-        (using the following SCRIPT)
+Alice and Bob somehow agree on a 10 : 1 exchange rate BTC ETH. 
 
-    Alice also sends the transaction to Bob, who verifies it, timestamp and amounts check.
+Alice makes the following BTC Transaction:
 
-    Bob blocks his funds in the Ethereum blockchain sending 10 ether to the following contract:
+    (using the following SCRIPT)
 
-        HASHTIMELOCK in the following transaction (Get the receipt)
+Alice also sends the transaction to Bob, who verifies it, timestamp and amounts check.
 
-    PUM!
+Bob blocks his funds in the Ethereum blockchain sending 10 ether to the following contract:
 
-    Alice claims the Money in this transaction:
+    HASHTIMELOCK in the following transaction (Get the receipt)
 
-    Bob claims the Money using that hash in the bitcoin blockchain.
+PUM!
 
-    They walk away.
+Alice claims the Money in this transaction:
+
+Bob claims the Money using that hash in the bitcoin blockchain.
+
+They walk away.
 
 
     

@@ -1,0 +1,17 @@
+{
+   "bitcoin": {
+        "sender":"ms9VQZNJsqu8FmWmdeaecYh8PsxzFBw4G7",
+        "reciever":"mjoiZtx6URsBH7uxnZS7kMySYLtiXuwW98",
+        "amount":"0.999",
+        "timelock":150,
+        "lockScript":"63a820a018cbabebd5ed1cef0e28c3e2fa74ab65ad241be64cb008b4f4b5aec9bb35988876a9142f0c1daaa51875895c8980abb9057528a6d573e467029600b17576a9147f92545123fdd96ebe8d84b4b9fb8c9d0e8e928a6888ac",
+        "transactionId": "7eec5dccdcd8a0a98c66c32cf33ccfea746ec220047c3f022821a27a0b89528d"
+   },
+   "ethereum": {
+        "sender":"",
+        "reciever":"",
+        "amount":"",
+        "timelock":""
+   },
+   "hashlock": ""
+}

@@ -1,19 +1,21 @@
 # Bitcoin and Ethereum Cross Atomic Chain Swaps
 
+## Work in progress!!
+
 This repo contains the tools to exchange assets across the Bitcoin and Ethereum blockchains between two parties in an intractive and decentralized manner.
 
 This repo contains:
 
-    The required tools to perform a cross atomic chain swap between the Ethereum and Bitcoin blockchain. For a more detailed explanation on Swaps, you can read this blog post.
+The required tools to perform a cross atomic chain swap between the Ethereum and Bitcoin blockchain. For a more detailed explanation on Swaps, you can read this blog post.
 
-    We use the ethereum Web3 provider to interact with an Ethereum full node and Bitcore library to interact with a Bitcoin full node. You can connect to any Ethereum client (geth or parity)
-    to perform this on MainNet or any etherum testnet (...). For Bitcoin we interact directly with bitcoind, there is an alternate version interacting with btcd in the future.
+We use the ethereum Web3 provider to interact with an Ethereum full node and Bitcore library to interact with a Bitcoin full node. You can connect to any Ethereum client (geth or parity)
+to perform this on MainNet or any etherum testnet (...). For Bitcoin we interact directly with bitcoind, there is an alternate version interacting with btcd in the future.
 
-    The contract to perform the Swap in Ethereum is a library to perform Hash Time Lock Contracts for Ethereum. See More Here.
+The contract to perform the Swap in Ethereum is a library to perform Hash Time Lock Contracts for Ethereum. See More Here.
 
-    In the bitcoin side we use a simple script inspired on BIP-199 to perform the Hash Time Lock Contract. You can also perform this using nay Ethereum local network (testrpc or ganache) and bitcoin in regtest mode.
+In the bitcoin side we use a simple script inspired on BIP-199 to perform the Hash Time Lock Contract. You can also perform this using nay Ethereum local network (testrpc or ganache) and bitcoin in regtest mode.
 
-    If you want to run it locally downlaod Ganache for Ethereum and Use this Bitcoin docker image.
+If you want to run it locally downlaod Ganache for Ethereum and Use this Bitcoin docker image.
 
 How to use:
 
